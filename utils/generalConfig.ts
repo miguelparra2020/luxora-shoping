@@ -13,7 +13,7 @@ export const ModuelesActives = {
 }
 
 export const company = {
-  name: "Mile puntadas",
+  name: "The House Exclusive",
   principalColorTitles: "blue",
   principalColorParrafos: "slate",
   principalColorButtonsBg: "blue",
