@@ -5,9 +5,9 @@ import type { ManifestOptions } from "vite-plugin-pwa"
  * Defines the default SEO configuration for the website.
  */
 export const seoConfig = {
-	baseURL: "https://thehouseexclusive.com", // Change this to your production URL.
+	baseURL: "https://luxorashoping.com", // Change this to your production URL.
 	description:
-		"The House Exclusive es una tienda de moda premium especializada en prendas de alta calidad con diseños únicos y exclusivos. Ofrecemos piezas personalizables que reflejan tu estilo y elevan tu identidad con elegancia y autenticidad.", // Change this to be your website's description.
+		"LuxoraShoping.com – Tienda virtual colombiana de productos importados de belleza y hogar. Ofrecemos una cuidada selección de artículos de alta calidad para tu cuidado personal y tu casa, con envíos seguros a todo el país. Compra fácil, confiable y con atención al cliente dedicada.", // Change this to be your website's description.
 	type: "website",
 	image: {
 		url: "https://picsum.photos/1200/630", // Change this to your website's thumbnail.
@@ -15,9 +15,9 @@ export const seoConfig = {
 		width: 1200,
 		height: 630
 	},
-	siteName: "The House Exclusive", // Change this to your website's name,
+	siteName: "Luxora Shoping", // Change this to your website's name,
 	twitter: {
-		card: "The House Exclusive es una tienda de moda premium especializada en prendas de alta calidad con diseños únicos y exclusivos. Ofrecemos piezas personalizables que reflejan tu estilo y elevan tu identidad con elegancia y autenticidad."
+		card: "LuxoraShoping.com – Tienda virtual colombiana de productos importados de belleza y hogar. Ofrecemos una cuidada selección de artículos de alta calidad para tu cuidado personal y tu casa, con envíos seguros a todo el país. Compra fácil, confiable y con atención al cliente dedicada."
 	}
 }
 
@@ -25,10 +25,10 @@ export const seoConfig = {
  * Defines the configuration for PWA webmanifest.
  */
 export const manifest: Partial<ManifestOptions> = {
-	name: "The House Exclusive", // Change this to your website's name.
-	short_name: "The House Exclusive", // Change this to your website's short name.
+	name: "Luxora Shoping", // Change this to your website's name.
+	short_name: "Luxora Shoping", // Change this to your website's short name.
 	description:
-		"The House Exclusive es una tienda de moda premium especializada en prendas de alta calidad con diseños únicos y exclusivos. Ofrecemos piezas personalizables que reflejan tu estilo y elevan tu identidad con elegancia y autenticidad.", // Change this to be your website's description.
+		"LuxoraShoping.com – Tienda virtual colombiana de productos importados de belleza y hogar. Ofrecemos una cuidada selección de artículos de alta calidad para tu cuidado personal y tu casa, con envíos seguros a todo el país. Compra fácil, confiable y con atención al cliente dedicada.", // Change this to be your website's description.
 	 // Change this to your websites description.
 	theme_color: "#ffffffff", // Change this to your primary color.
 	background_color: "#ffffff", // Change this to your background color.
